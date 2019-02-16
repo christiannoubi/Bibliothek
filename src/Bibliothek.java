@@ -9,10 +9,9 @@ public class Bibliothek {
         mv.add(h1);
 
         // Buch b1, b2, mv.add(bi) (s.o.)
-        BuchArt ba1 = BuchArt.SOFTWARE;
-        BuchArt ba2 = BuchArt.ROMANCE;
-        Buch b1 = new Buch ("Christian", "Java", 1988, "Spring", ba1);
-        Buch b2 = new Buch ("Francis", "C++", 1990, "Spring", ba2);
+        ;
+        Buch b1 = new Buch ("Christian", "Java", 1988, "Spring", BuchArt.SOFTWARE);
+        Buch b2 = new Buch ("Francis", "C++", 1990, "Spring",  BuchArt.ROMANCE);
 
 
         Spiel s1 = new Spiel("Dixit", 2010, "Libellud", 3,6,8);
