@@ -16,7 +16,7 @@ public class MedienVerwaltung {
         } else {
             System.out.println("Hinzufuegen des Mediums nocht moeglich,"
             + " da Medienverwaltung voll");
-            System.out.println("F<olgendes Medium wurde nciht hinzufuegt");
+            System.out.println("Folgendes Medium wurde nicht hinzufuegt");
             medium.print();
         }
     }
